@@ -7,7 +7,7 @@
         public int IdUsuario { get; set; }
         public DateTime DataEmprestimo { get; set; }
         public DateTime DataPrevistaDev { get; set; }
-        public DateTime DataRealDev { get; set; }
+        public DateTime ?DataRealDev { get; set; }
         public string Status { get; set; }
     }
 }
